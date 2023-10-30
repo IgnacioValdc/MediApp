@@ -1,19 +1,19 @@
-# mediapp
+# MediApp - Client
 
-## Project setup
+1.- Para iniciar el proyecto necesitas tener instalado yarn, puedes instalarlo con choco:
 ```
-yarn install
+choco install yarn
+```
+Luego instala las dependencias:
+```
+yarn
 ```
 
-### Compiles and hot-reloads for development
+2.- Inicia el proyecto ejecutando en la raiz:
 ```
 yarn serve
 ```
+Podras abrirlo en http://localhost:8080/#/
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Si no tienes el servidor y la base de datos puedes descargarlo desde https://github.com/IgnacioValdc/MediApp---Servidor
